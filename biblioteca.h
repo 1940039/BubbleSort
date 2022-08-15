@@ -15,10 +15,11 @@ void geraVet(int v[], int n){
 	   v[i]=rand()%50;
 }// fim geraV
 //-----------------------------
-void printVetor(int v[],int n){
+void printVet(int v[],int n){
 	int i;
+	
 	for(i=0;i<n;i++)
-	  printf("%d |",v[i]);
+	  printf(" [%d]",v[i]);
 	printf("\n");  
 }// fim printVetor
 
